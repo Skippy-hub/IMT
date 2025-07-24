@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИМТ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container container--flex">
+            <form class="hero__form" action="">
+                <div class="hero__form-left">
+                    <div class="hero__form-row">
+                        <label class="label" for="height">Рост</label>
+                        <input class="input" id="height" type="number" placeholder="см">
+                    </div>
+                    <div class="hero__form-row">
+                        <label class="label" for="weight">Вес</label>
+                        <input class="input" id="weight" type="number" placeholder="кг">
+                    </div>
+                </div>
+                <div class="hero__form-right">
+                    <div class="hero__form-row">
+                        <label class="label" for="imt">ИМТ</label>
+                        <input class="input" id="imt" type="text" readonly>
+                    </div>
+                    <button class="form__button" type="submit">Рассчитать</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
